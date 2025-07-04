@@ -17,7 +17,7 @@ const app = express();
 
 // Configure CORS
 const corsOptions = {
-  origin: 'http://localhost:3000', // Allow only this origin
+  origin: 'https://todo-frontend-one-tau.vercel.app', // Allow only this origin
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Allow cookies/session
   optionsSuccessStatus: 204
